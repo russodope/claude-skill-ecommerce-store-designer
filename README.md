@@ -51,9 +51,12 @@ The output is **images**, not a web page — most store platforms assemble mobil
 
 ## 安装 / Install
 
-把整个目录放进 Claude Code / Claude Desktop 的 skills 目录（或打包成 `.skill` 文件）。当你提到「店铺装修 / 店铺首页 / banner / 详情页 / 电商装修」等需求时，Claude 会自动调用本 skill。
+**最简单**：直接下载 [`ecommerce-store-designer.skill`](./ecommerce-store-designer.skill)（或 [Releases](../../releases) 页），导入 Claude Code / Claude Desktop 的 skills 即可。
+**Easiest**: download [`ecommerce-store-designer.skill`](./ecommerce-store-designer.skill) (or from [Releases](../../releases)) and import it into Claude.
 
-Place this folder in your Claude skills directory (or zip it into a `.skill`). It triggers on store-decoration / homepage / banner / product-page requests.
+或把整个目录放进 skills 目录。当你提到「店铺装修 / 店铺首页 / banner / 详情页 / 电商装修」等需求时，Claude 会自动调用本 skill。
+
+Or place this folder in your Claude skills directory. It triggers on store-decoration / homepage / banner / product-page requests.
 
 > `.skill` 文件本质是 ZIP，改后缀为 `.zip` 解压即可读源码。 / The `.skill` file is just a ZIP — rename to `.zip` to read the source.
 
